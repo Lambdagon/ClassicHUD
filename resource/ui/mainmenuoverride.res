@@ -229,6 +229,32 @@
 		}		
 	}	
 	
+	"Image0"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Image0"
+		"xpos"			"c0"
+		"ypos"			"c0"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"37 37 37 255" //90 106 80
+	}
+	
+	"Image1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Image1"
+		"xpos"			"c0"
+		"ypos"			"c0"
+		"wide"			"16"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"44 50 39 255" //40 46 34
+	}
+	
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
