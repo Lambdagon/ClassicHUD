@@ -95,6 +95,18 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		
+		//=========Fake Source Scheme Stuff===========
+		
+		"C_Src_Tahoma8"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"0"
+			}
+		}
 	}
 	
 	CustomFontFiles
