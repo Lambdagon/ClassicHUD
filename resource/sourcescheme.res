@@ -113,7 +113,7 @@ Scheme
 		
 		Label.TextDullColor				"C_DullTextColor"
 		Label.TextColor					"C_DefaultTextColor"
-		Label.TextBrightColor			"0 0 255 255"
+		Label.TextBrightColor			"C_DefaultTextColor"
 		Label.SelectedTextColor			"C_ArmedTextColor"
 		Label.BgColor					"C_Blank"
 		Label.DisabledFgColor1			"C_DisabledTextColor2"	

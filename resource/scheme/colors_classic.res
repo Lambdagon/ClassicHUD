@@ -15,6 +15,8 @@ Scheme
 		"C_Src_OutOfFocusTextColor"	"134 143 126 255"
 		"C_Src_DullTextColor"		"158 168 148 255"
 		
+		"C_Src_CloseButton"			"192 190 188 255"
+		
 		"C_Src_BGColor"				"77 89 70 255"
 		"C_Src_ListBG"				"64 72 58 255"
 		"C_Src_ScrollBarBG"				"90 106 81 255"
