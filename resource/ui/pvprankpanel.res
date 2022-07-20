@@ -198,10 +198,6 @@
 
 		if_mini
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
 		}
 
 		"NameLabel"
@@ -237,15 +233,13 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
 			}
 
 			"fonts"
 			{
 				"0"		"C_Src_Tahoma8"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"1"		"C_Src_Tahoma8"
+				"2"		"C_Src_Tahoma8"
 			}
 		}
 
@@ -271,15 +265,13 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
 			}
 
 			"fonts"
 			{
-				"0"		"C_Src_Tahoma8"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"C_Src_Tahoma7"
+				"1"		"C_Src_Tahoma7"
+				"2"		"C_Src_Tahoma7"
 			}
 
 			"colors"
@@ -317,9 +309,6 @@
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
 			}
 
 			"XPBar"
@@ -343,7 +332,7 @@
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"C_Src_Tahoma8"
+					"font"			"C_Src_Tahoma7"
 					"fgcolor_override"	"220 220 220 255"
 					"textAlignment"	"east"
 					"labelText"		"%current_xp%"
@@ -365,7 +354,7 @@
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"C_Src_Tahoma8"
+					"font"			"C_Src_Tahoma7"
 					"fgcolor_override"	"220 220 220 255"
 					"textAlignment"	"east"
 					"textinsetx"	"8"
@@ -385,7 +374,7 @@
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"C_Src_Tahoma8"
+					"font"			"C_Src_Tahoma7"
 					"fgcolor_override"	"220 220 220 255"
 					"textAlignment"	"center"
 					"labelText"		"/"
@@ -415,10 +404,10 @@
 						"tall"			"f0"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
-						"progress"		"1"
+						"progress"		"2"
 
-						"fgcolor_override"	"Blank"
-						"bgcolor_override"	"78 78 78 255"
+						"fgcolor_override"	"255 0 0 0"
+						"bgcolor_override"	"255 255 0 0"
 					}
 
 					"ContinuousProgressBar"
@@ -431,9 +420,9 @@
 						"tall"			"f0"
 						"zpos"			"2"
 						"proportionaltoparent"	"1"
-						"progress"		"0"
+						"progress"		"1"
 						
-						"bgcolor_override"	"Blank"
+						"bgcolor_override"	"0 255 0 0"
 						"fgcolor_override"	"C_Src_SelectionBG"
 					}
 

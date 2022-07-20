@@ -98,6 +98,33 @@ Scheme
 		
 		//=========Fake Source Scheme Stuff===========
 		
+		"C_Src_Tahoma4"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"4"
+				"weight"	"0"
+			}
+		}
+		"C_Src_Tahoma6"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"6"
+				"weight"	"0"
+			}
+		}
+		"C_Src_Tahoma7"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"7"
+				"weight"	"0"
+			}
+		}
 		"C_Src_Tahoma8"
 		{
 			"1"

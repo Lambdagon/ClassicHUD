@@ -17,6 +17,7 @@ Scheme
 		
 		"C_Src_BGColor"				"77 89 70 255"
 		"C_Src_ListBG"				"64 72 58 255"
+		"C_Src_ScrollBarBG"				"90 106 81 255"
 		"C_Src_SelectionBG"			"148 135 52 255"
 		"C_Src_SelectionBG2"		"44 50 39 255"
 		
