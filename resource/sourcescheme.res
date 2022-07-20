@@ -205,12 +205,13 @@ Scheme
 		
 		ScrollBarSliderBorder
 		{
+			"inset" "0 0 1 1"
 			Left
 			{
 				"1"
 				{
 					"color" 								"Border.Bright"
-					"offset" 								"0 0"
+					"offset" 								"0 1"
 				}
 			}
 
@@ -219,7 +220,7 @@ Scheme
 				"1"
 				{
 					"color" 								"Border.Dark"
-					"offset" 								"0 0"
+					"offset" 								"1 0"
 				}
 			}
 

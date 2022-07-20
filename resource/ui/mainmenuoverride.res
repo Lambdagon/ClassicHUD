@@ -1,12 +1,7 @@
-#base "MainMenuOverride_buttons.res"
+#base "../../customizations/menubackground.res"
+#base "mainmenuoverride_buttons.res"
 #base "mainmenuoverride_safemode.res"
 #base "mainmenuoverride_motd.res"
-
-#base "../../customizations/skins/enabled/freeman/background.res"
-#base "../../customizations/skins/enabled/shephard/background.res"
-#base "../../customizations/skins/enabled/calhoun/background.res"
-#base "../../customizations/skins/enabled/cross/background.res"
-#base "../../customizations/skins/enabled/green/background.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
