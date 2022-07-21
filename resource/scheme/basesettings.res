@@ -44,13 +44,13 @@ Scheme
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"C_Src_DefaultTextColor"
+		CheckButton.SelectedTextColor	"C_Src_SelectedTextColor"
+		CheckButton.BgColor				"Blank"
+		CheckButton.Border1  			"C_Src_CheckButtonBorder" 		// the left checkbutton border
+		CheckButton.Border2  			"C_Src_CheckButtonBorder"		// the right checkbutton border
+		CheckButton.Check				"C_Src_TextColor"		// color of the check itself
+		CheckButton.HighlightFgColor	"C_Src_DefaultTextColor"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"

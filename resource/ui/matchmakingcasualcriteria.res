@@ -268,7 +268,7 @@
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
 			"font"			"C_Src_Tahoma8"
-			"fgcolor_override"	"C_Src_DefaultTextColor"
+			"fgcolor_override"	"C_Src_DullTextColor"
 			"mouseinputenabled"	"0"
 		}
 

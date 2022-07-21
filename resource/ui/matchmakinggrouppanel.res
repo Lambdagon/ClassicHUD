@@ -36,7 +36,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"defaultfgcolor_override"	"HudWhite"	
+		"defaultfgcolor_override"	"c_src_defaulttextcolor"	
 		"font"		"C_Src_Tahoma8"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
