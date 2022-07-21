@@ -81,5 +81,107 @@ Scheme
 				}
 			}
 		}
+		
+		c_src_tab_off
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		c_src_tab_on
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		c_src_convex_swe
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "C_Src_BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+		}
 	}
 }

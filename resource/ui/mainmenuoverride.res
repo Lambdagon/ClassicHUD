@@ -1262,4 +1262,12 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"DashboardDimmer"
+	{
+		"wide" "f0"
+		"tall" "f0"
+		"paintborder"	"0"
+		"roundedcorners"	"0"
+	}
 }
