@@ -572,11 +572,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Tahoma"
+				"tall"		"7"
+				"weight"	"0"
 			}
 		}
 		"PerformanceModeSmall"
