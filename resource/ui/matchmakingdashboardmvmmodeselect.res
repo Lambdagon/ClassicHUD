@@ -364,6 +364,7 @@
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
 		"roundedcorners"	"0"
+		"paintborder"	"0"
 		"defaultbgColor_override"	"0 255 0 0"
 		"armedbgColor_override"	"0 255 0 0"
 	}

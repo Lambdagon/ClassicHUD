@@ -55,7 +55,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"0"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -80,7 +80,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -109,7 +109,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -138,7 +138,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -184,7 +184,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -213,7 +213,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -242,7 +242,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+			"paintborder"	"0"
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -271,7 +271,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -300,7 +300,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -329,7 +329,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -358,7 +358,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -387,7 +387,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -416,7 +416,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -1005,7 +1005,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"400"
-		"zpos"				"500"
+		"zpos"				"1"
 		"visible"			"0"
 	}
 	"backpack_panel"

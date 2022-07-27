@@ -20,7 +20,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"	"UI/buttonrollover.wav"
 		"proportionaltoparent"	"1"
-			
+		"paintborder"	"0"	
 		"paintbackground"	"0"
 		"defaultfgcolor_override"	"244 116 20 255" //244 117 12 255
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
@@ -56,7 +56,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -137,7 +137,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -177,7 +177,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -217,7 +217,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -299,7 +299,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -339,7 +339,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -395,7 +395,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -435,7 +435,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -491,7 +491,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -531,7 +531,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -571,7 +571,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -627,7 +627,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"
@@ -667,7 +667,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "C_MenuButtonDefault"

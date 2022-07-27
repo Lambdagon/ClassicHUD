@@ -156,6 +156,7 @@
 		"proportionaltoparent"	"1"
 			
 		"paintbackground"	"0"
+		"paintborder"	"0"
 		"defaultfgcolor_override"	"244 116 20 255" //244 117 12 255
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 	}
@@ -188,6 +189,7 @@
 		"pin_corner_to_sibling"	"2"
 		
 		"paintbackground"	"0"
+		"paintborder"	"0"
 		"defaultfgcolor_override"	"c_menubuttondefault"
 		"armedfgcolor_override"		"c_menubuttonarmed"
 	}	

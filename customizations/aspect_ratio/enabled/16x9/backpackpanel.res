@@ -33,6 +33,6 @@
 	"Background"
 	{
 		"wide"			"f250"
-		"tall"			"316"
+		"tall"			"312"
 	}
 }

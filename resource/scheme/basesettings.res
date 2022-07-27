@@ -27,8 +27,8 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetDefaultColorBg					"C_Src_DisabledTextColor2"
+		Econ.Button.PresetArmedColorBg						"C_Src_DisabledTextColor2"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
 		
 		Border.Bright					"Blank"		// the lit side of a control

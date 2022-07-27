@@ -111,7 +111,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-
+		"paintborder"	"0"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallBold"
 
@@ -141,7 +141,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
-
+		"paintborder"	"0"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 		
