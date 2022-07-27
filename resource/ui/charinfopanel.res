@@ -1,4 +1,6 @@
-#base "../../customizations/menubackground.res"
+#base "../../customizations/aspect_ratio/enabled/16x9/charinfopanel.res"
+#base "../../customizations/aspect_ratio/enabled/16x10/charinfopanel.res"
+#base "../../customizations/aspect_ratio/enabled/4x3/charinfopanel.res"
 
 "Resource/UI/CharInfoPanel.res"
 {
@@ -95,7 +97,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"125"
 		"tabxdelta"		"0"
 		"tabwidth"		"240"
 		"tabheight"		"11"

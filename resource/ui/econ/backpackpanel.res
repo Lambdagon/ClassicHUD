@@ -1,3 +1,7 @@
+#base "../../../customizations/aspect_ratio/enabled/16x9/backpackpanel.res"
+#base "../../../customizations/aspect_ratio/enabled/16x10/backpackpanel.res"
+#base "../../../customizations/aspect_ratio/enabled/4x3/backpackpanel.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"backpack_panel"
@@ -23,8 +27,7 @@
 		"item_ypos"		"40"
 		"item_ydelta"	"80"
 		"item_mod_wide"	"40"
-		
-		"item_backpack_offcenter_x"		"-288"
+
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
@@ -32,8 +35,7 @@
 		"button_ypos"	"45"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
-
-		"page_button_y"	"265"
+		
 		"page_button_x_delta" "3"
 		"page_button_y_delta" "3"
 		"page_button_per_row" "20"
@@ -54,7 +56,6 @@
 			{
 				"fieldName"		"Button"
 				"ControlName"	"CExButton"
-				"wide"			"25"
 				"tall"			"11"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
@@ -112,22 +113,12 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"54"
-			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"C_src_ListBG"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
 			"PaintBackground"	"0"
 			"paintborder"	"1"
-			
-			"model_xpos"	"2"
-			"model_ypos"	"5"
-			"model_wide"	"50"
-			"model_tall"	"35"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"name_only"		"1"
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
@@ -174,8 +165,6 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f250"
-		"tall"			"316"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
