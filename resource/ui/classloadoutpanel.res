@@ -23,9 +23,7 @@
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
 		"item_xpos_offcenter_a"	"35"
-		"item_xpos_offcenter_b"	"163"
 		"item_ypos"		"8"
-		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
 		
 		"item_backpack_offcenter_x"		"-0"
@@ -42,8 +40,6 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"125"
-			"tall"			"72"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
@@ -51,10 +47,6 @@
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
-			"model_ypos"		"5"			
-			"model_tall"		"55"
-			"model_wide"		"82"
-			"text_ypos"			"54"
 			"text_center"		"1"
 			"name_only"			"1"
 			
@@ -98,7 +90,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"autoResize"	"1"
@@ -204,8 +195,6 @@
 		"xpos"			"-14"
 		"ypos"			"-8"
 		"zpos"			"-1"
-		"wide"			"253"
-		"tall"			"296"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"c_src_listbg"
@@ -221,8 +210,6 @@
 		"xpos"			""
 		"ypos"			""
 		"zpos"			"1"
-		"wide"			"253"
-		"tall"			"296"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"			"c_src_concave"
@@ -239,9 +226,7 @@
 		
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"253"
-		"tall"			"296"
+		"zpos"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

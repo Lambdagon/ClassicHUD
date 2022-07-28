@@ -162,7 +162,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"autoResize"	"1"

@@ -14,12 +14,11 @@
 			"text_ypos"			"54"
 		}
 	}
-
 	"Background"
 	{
-		"xpos"			"125"
-		"wide"			"f250"
-		"tall"			"312"
+		"xpos"			"82"
+		"wide"			"f164"
+		"tall"			"316"
 	}
 	
 	"C_ModelBG"
