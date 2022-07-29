@@ -6,4 +6,9 @@
 		"wide"			"f250"
 		"tall"			"312"
 	}
+	
+	"C_MegaContainer"
+	{
+		"wide"			"f278"
+	}
 }
