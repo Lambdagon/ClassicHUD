@@ -146,11 +146,12 @@
 					"proportionaltoparent"	"1"
 					"bgcolor_override"	"255 255 0 255"
 					"paintbackground"	"1"
+					"paintborder"		"0"
 
 					"Slider"
 					{
 						"fgcolor_override"	"C_Src_BGColor"
-						"paintborder"		"1"
+						"border"		"c_src_concave"
 					}
 			
 					"UpButton"

@@ -140,7 +140,7 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Gray"		// nob color
+		ScrollBarSlider.FgColor				"c_src_borderbright"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
 		SectionedListPanel.HeaderTextColor	"Orange"

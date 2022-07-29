@@ -543,13 +543,7 @@ Scheme
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"../econ/item_border"
 		}
 		Econ.Button.Border.Default
 		{
@@ -633,13 +627,7 @@ Scheme
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"loadout_rect_mouseover"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"../econ/item_hover"
 		}
 		LoadoutItemPopupBorder
 		{

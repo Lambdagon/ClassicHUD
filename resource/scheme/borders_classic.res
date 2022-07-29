@@ -183,5 +183,12 @@ Scheme
 				}
 			}
 		}
+		
+		ScrollBarSliderBorder
+		{
+			"inset" "0 0 1 1"
+			
+			"backgroundtype"	"0"
+		}
 	}
 }

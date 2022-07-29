@@ -28,7 +28,7 @@
 		"stay_armed_on_click"	"1"
 		"roundedcorners"	"1"
 		"paintbackground"	"1"
-		"paintborder"	"1"
+		"paintborder"	"0"
 		
 		"border_default"	"NoBorder"
 		"border"	"NoBorder"
