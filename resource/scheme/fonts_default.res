@@ -1799,98 +1799,98 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Tahoma"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Tahoma"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"ItemFontNameLarger"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Tahoma"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Tahoma"
 				"tall"		"7"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" 	"0"
 			}
 		}
 		ItemFontAttribSmallv2
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
+				"antialias" "0"
+				"weight"	"0"
 			}
 		}
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Tahoma"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" 	"0"
 			}
 		}
 		"ItemFontAttribLarge"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Tahoma"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" 	"0"
 			}
 		}	
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Tahoma"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" 	"1"
+				"antialias" 	"0"
 			}
 		}
 		

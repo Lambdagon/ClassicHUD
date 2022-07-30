@@ -24,8 +24,7 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 
-		"item_ypos"						"10" //28
-		"output_item_ypos"				"237"		
+		"item_ypos"						"0" //28		
 		"item_crafting_offcenter_x"		"0"
 		"item_backpack_xdelta"			"2"
 		"item_backpack_ydelta"			"4"
@@ -38,18 +37,15 @@
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
-			"wide"			"70"
-			"tall"			"45"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"35"
+			
 			"text_center"	"1"
-			"name_only"		"1"
+			"name_only"		"1"			
 			"text_forcesize" "3"
 			"noitem_use_fullpanel" "1"
 			
@@ -275,7 +271,6 @@
 		"fieldName"		"C_MegaContainer"
 		"ypos"			"s-0.064"
 		"xpos"			"0"
-		"tall"			"286"
 		"zpos"			"-1"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -312,17 +307,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"selectedrecipecontainer"
-		"xpos"			"0"
-		"ypos"			"s-0.064"
+		"xpos"			"-7"
+		"ypos"			"-4"
 		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"286"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 		
-		"pin_to_sibling"	"Background"
-		"pin_to_sibling_corner"	"4"
-		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling"	"C_MegaContainer"
+		"pin_to_sibling_corner"	"3"
+		"pin_corner_to_sibling"	"3"
 
 		"RecipeTitle"
 		{
@@ -390,23 +383,27 @@
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"west"
 			"xpos"			"0"
-			"ypos"			"220"
+			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"11"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"c_src_dulltextcolor"
+			
+			"pin_to_sibling"	"modelpanel12"
+			"pin_to_sibling_corner"	"0"
+			"pin_corner_to_sibling"	"2"
 		}
 		
 		"CraftButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CraftButton"
-			"xpos"			"rs1-16"
-			"ypos"			"rs1-4"
+			"xpos"			"rs1"
+			"ypos"			"rs1"
 			"zpos"			"20"
 			"wide"			"46"
 			"tall"			"11"
@@ -484,8 +481,6 @@
 		"xpos"			"-7"
 		"ypos"			"-4"
 		"zpos"			"5"
-		"wide"			"278" //278
-		"tall"			"272"
 		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"c_src_listbg"
