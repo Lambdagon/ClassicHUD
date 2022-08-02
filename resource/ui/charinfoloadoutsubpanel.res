@@ -1,3 +1,7 @@
+#base "../../customizations/aspect_ratio/enabled/16x9/charinfoloadoutsubpanel.res"
+#base "../../customizations/aspect_ratio/enabled/16x10/charinfoloadoutsubpanel.res"
+#base "../../customizations/aspect_ratio/enabled/4x3/charinfoloadoutsubpanel.res"
+
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
@@ -6,7 +10,7 @@
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f10"
+		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -36,10 +40,24 @@
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
-	"C_WarPaints"
+	"Background"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Background"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"c_src_convex"
+		"bgcolor_override"		"c_src_bgcolor"
+	}
+	
+	"C_MenuWarPaints"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_WarPaints"
+		"fieldName"		"C_MenuWarPaints"
 		"xpos"			"12"
 		"ypos"			"r122"
 		"zpos"			"2"
@@ -61,10 +79,10 @@
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 	}
 	
-	"C_Trading"
+	"C_MenuTrading"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Trading"
+		"fieldName"		"C_MenuTrading"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -85,15 +103,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_WarPaints"
+		"pin_to_sibling"		"C_MenuWarPaints"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Crafting"
+	"C_MenuCrafting"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Crafting"
+		"fieldName"		"C_MenuCrafting"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -114,15 +132,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Trading"
+		"pin_to_sibling"		"C_MenuTrading"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Backpack"
+	"C_MenuBackpack"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Backpack"
+		"fieldName"		"C_MenuBackpack"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -143,15 +161,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Crafting"
+		"pin_to_sibling"		"C_MenuCrafting"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"Spacer"
+	"C_MenuSpacer"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Spacer"
+		"fieldName"		"C_MenuSpacer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -160,15 +178,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"pin_to_sibling"		"C_Backpack"
+		"pin_to_sibling"		"C_MenuBackpack"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Spy"
+	"C_MenuSpy"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Spy"
+		"fieldName"		"C_MenuSpy"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -189,15 +207,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"Spacer"
+		"pin_to_sibling"		"C_MenuSpacer"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Sniper"
+	"C_MenuSniper"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Sniper"
+		"fieldName"		"C_MenuSniper"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -218,15 +236,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Spy"
+		"pin_to_sibling"		"C_MenuSpy"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Medic"
+	"C_MenuMedic"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Medic"
+		"fieldName"		"C_MenuMedic"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -247,15 +265,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Sniper"
+		"pin_to_sibling"		"C_MenuSniper"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Engineer"
+	"C_MenuEngineer"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Engineer"
+		"fieldName"		"C_MenuEngineer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -276,15 +294,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Medic"
+		"pin_to_sibling"		"C_MenuMedic"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Heavy"
+	"C_MenuHeavy"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Heavy"
+		"fieldName"		"C_MenuHeavy"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -305,15 +323,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Engineer"
+		"pin_to_sibling"		"C_MenuEngineer"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Demo"
+	"C_MenuDemo"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Demo"
+		"fieldName"		"C_MenuDemo"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -334,15 +352,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Heavy"
+		"pin_to_sibling"		"C_MenuHeavy"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Pyro"
+	"C_MenuPyro"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Pyro"
+		"fieldName"		"C_MenuPyro"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -363,15 +381,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Demo"
+		"pin_to_sibling"		"C_MenuDemo"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Soldier"
+	"C_MenuSoldier"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Soldier"
+		"fieldName"		"C_MenuSoldier"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -392,15 +410,15 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Pyro"
+		"pin_to_sibling"		"C_MenuPyro"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}
 	
-	"C_Scout"
+	"C_MenuScout"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"C_Scout"
+		"fieldName"		"C_MenuScout"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -421,9 +439,1085 @@
 		"defaultfgcolor_override"	"C_MenuButtonDefault"
 		"armedfgcolor_override"		"C_MenuButtonArmed"	
 		
-		"pin_to_sibling"		"C_Soldier"
+		"pin_to_sibling"		"C_MenuSoldier"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
+	}
+	
+	"C_Contents"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"C_Contents"
+		"xpos"				"-14"
+		"ypos"				"-8"
+		"zpos"				"1"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		
+		"pin_to_sibling"		"Background"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"0"
+	
+		"C_Row1"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"C_Row1"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
+			"wide"				"f0"
+			"tall"				"p0.3"
+			"visible"			"1"
+			"enabled"			"1"
+			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"Background"
+			"pin_to_sibling_corner"	"0"
+			"pin_corner_to_sibling"	"0"
+			
+			"Scout"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Scout"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Scout"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Jeremy
+										Boston, Massachusetts, USA
+										Rapid Recovery
+										Double jump"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout scout"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Soldier"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Soldier"
+				"xpos"				"cs-0.5"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Soldier"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.3"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Favourite World War:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.3"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.7"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Jane Doe
+										Midwest, USA
+										Shock and Awe
+										2
+										Rocket jump"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout soldier"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Pyro"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Pyro"
+				"xpos"				"rs1"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Pyro"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Unknown
+										Unknown
+										Pyrotechnics
+										Compression blast"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout pyro"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Bottom"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Bottom"
+				"xpos"				"0"
+				"ypos"				"rs1"
+				"zpos"				"1"
+				"wide"				"f0"
+				"tall"				"1"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"border"	"c_src_concave"
+			}
+		}
+		
+		"C_Row2"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"C_Row2"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
+			"wide"				"f0"
+			"tall"				"p0.3"
+			"visible"			"1"
+			"enabled"			"1"
+			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"C_Row1"
+			"pin_to_sibling_corner"	"2"
+			"pin_corner_to_sibling"	"0"
+			
+			"Demo"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Demo"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Demoman"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Tavish Finnegan DeGroot
+										Ullapool, Scotland, United Kingdom
+										House Cleaning
+										Stickybomb jump"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout demoman"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Heavy"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Heavy"
+				"xpos"				"cs-0.5"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Heavy Weapons Guy"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Mikhail
+										Dzhugdzhur Mountains, Khabarovsk Krai, USSR
+										Mow Down"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout heavy"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Engineer"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Engineer"
+				"xpos"				"rs1"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Engineer"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Dell Conagher
+										Bee Cave, Texas, USA
+										Area Denial"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout engineer"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Bottom"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Bottom"
+				"xpos"				"0"
+				"ypos"				"rs1"
+				"zpos"				"1"
+				"wide"				"f0"
+				"tall"				"1"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"border"	"c_src_concave"
+			}
+		}
+		
+		"C_Row3"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"C_Row3"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
+			"wide"				"f0"
+			"tall"				"p0.3"
+			"visible"			"1"
+			"enabled"			"1"
+			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"C_Row2"
+			"pin_to_sibling_corner"	"2"
+			"pin_corner_to_sibling"	"0"
+			
+			"Medic"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Medic"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Medic"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Dr. Ludwig
+										Stuttgart, Germany
+										Doctor Assisted Homicide
+										ÜberCharge"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout medic"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Sniper"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Sniper"
+				"xpos"				"cs-0.5"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Sniper"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:
+										Special ability:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Mr. Mundy
+										Australia, born in New Zealand
+										Precision Elimination
+										Headshot"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout sniper"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Spy"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Spy"
+				"xpos"				"rs1"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"p0.334"
+				"tall"				"f5"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				
+				"Title"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Title"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"1"
+					"wide"				"f0"
+					"tall"				"14"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"labeltext"			"Spy"
+					"fgcolor_override"			"c_src_textcolor"
+					"font"			"c_src_tahoma8"
+				}
+				
+				"Info1"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info1"
+					"xpos"				"0"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.25"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Name:
+										Location of origin:
+										Job:"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info2"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info2"
+					"xpos"				"p0.25"
+					"ypos"				"14"
+					"zpos"				"1"
+					"wide"				"p0.75"
+					"tall"				"f25"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Unknown
+										France
+										Uncloak and Dagger"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Button"
+				{
+					"ControlName"		"CExButton"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"50"
+					"tall"				"11"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"west"
+					"textinsetx"	"6"
+					"actionsignallevel"	"4"
+					"labeltext"		"Change Loadout"
+					"command"		"loadout spy"
+					"font"			"c_src_tahoma7"
+				}
+			}
+			
+			"Bottom"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"Bottom"
+				"xpos"				"0"
+				"ypos"				"rs1"
+				"zpos"				"1"
+				"wide"				"f0"
+				"tall"				"1"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"border"	"c_src_concave"
+			}
+		}
+		
+		"C_Row4"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"C_Row4"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"1"
+			"wide"				"f0"
+			"tall"				"p0.1"
+			"visible"			"1"
+			"enabled"			"1"
+			"proportionaltoparent"	"1"
+			
+			"pin_to_sibling"		"C_Row3"
+			"pin_to_sibling_corner"	"2"
+			"pin_corner_to_sibling"	"0"
+			
+			"Inventory"
+			{
+				"ControlName"		"CExButton"
+				"fieldName"			"Inventory"
+				"xpos"				"0"
+				"ypos"				"rs1"
+				"zpos"				"1"
+				"wide"				"50"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"textalignment"	"west"
+				"textinsetx"	"6"
+				"actionsignallevel"	"3"
+				"labeltext"		"Inventory"
+				"command"		"backpack"
+				"font"			"c_src_tahoma7"
+			}
+			
+			"Crafting"
+			{
+				"ControlName"		"CExButton"
+				"fieldName"			"Crafting"
+				"xpos"				"4"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"50"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"textalignment"	"west"
+				"textinsetx"	"6"
+				"actionsignallevel"	"3"
+				"labeltext"		"Crafting"
+				"command"		"crafting"
+				"font"			"c_src_tahoma7"
+				
+				"pin_to_sibling"		"Inventory"
+				"pin_to_sibling_corner"	"1"
+				"pin_corner_to_sibling"	"0"
+			}
+			
+			"Trading"
+			{
+				"ControlName"		"CExButton"
+				"fieldName"			"Trading"
+				"xpos"				"4"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"50"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"textalignment"	"west"
+				"textinsetx"	"6"
+				"actionsignallevel"	"3"
+				"labeltext"		"Trading"
+				"command"		"trading"
+				"font"			"c_src_tahoma7"
+				
+				"pin_to_sibling"		"Crafting"
+				"pin_to_sibling_corner"	"1"
+				"pin_corner_to_sibling"	"0"
+			}
+			
+			"War_Paints"
+			{
+				"ControlName"		"CExButton"
+				"fieldName"			"War_Paints"
+				"xpos"				"4"
+				"ypos"				"0"
+				"zpos"				"1"
+				"wide"				"50"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"proportionaltoparent"	"1"
+				"textalignment"	"west"
+				"textinsetx"	"6"
+				"actionsignallevel"	"3"
+				"labeltext"		"War Paints"
+				"command"		"paintkit_preview"
+				"font"			"c_src_tahoma7"
+				
+				"pin_to_sibling"		"Trading"
+				"pin_to_sibling_corner"	"1"
+				"pin_corner_to_sibling"	"0"
+			}
+		}
 	}
 	
 	"scout"

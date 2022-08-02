@@ -179,6 +179,9 @@
 		"font"		"c_src_tahoma8"
 		"command"		"selectfilter0"
 		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"pin_to_sibling"	"C_MegaContainer"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
@@ -205,6 +208,9 @@
 		"labelText"		"Common"
 		"font"		"c_src_tahoma8"
 		"command"		"selectfilter1"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling"	"C_FilterCraft"
 		"pin_to_sibling_corner"	"1"
@@ -233,6 +239,9 @@
 		"font"		"c_src_tahoma8"
 		"command"		"selectfilter2"
 		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"pin_to_sibling"	"C_FilterCommon"
 		"pin_to_sibling_corner"	"1"
 		"pin_corner_to_sibling"	"0"
@@ -259,6 +268,9 @@
 		"labelText"		"Special"
 		"font"		"c_src_tahoma8"
 		"command"		"selectfilter3"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling"	"C_FilterRare"
 		"pin_to_sibling_corner"	"1"

@@ -28,7 +28,6 @@
 
 		"modelpanels_selection_kv"
 		{
-			
 			"inset_eq_y"		"55"
 
 			"deferred_description"	"1"
@@ -239,19 +238,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
-		"font"			"c_src_tahoma8"
+		"font"			"C_Tahoma16"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
-		"xpos"			"c-300"
-		"ypos"			"120"
+		"ypos"			"40"
 		"zpos"			"10"
-		"wide"			"600"
-		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "c_src_dulltextcolor"
+		"paintbackground" "0"
 		"mouseinputenabled"	"0"
 	}
 	

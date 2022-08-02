@@ -40,4 +40,11 @@
 		"wide"			"f250"
 		"tall"			"312"
 	}
+	
+	"NoItemsLabel"
+	{
+		"xpos"			"125"
+		"wide"			"f250"
+		"tall"			"250"
+	}
 }

@@ -40,4 +40,11 @@
 		"wide"			"f138"
 		"tall"			"247"
 	}
+	
+	"NoItemsLabel"
+	{
+		"xpos"			"69"
+		"wide"			"f138"
+		"tall"			"185"
+	}
 }
