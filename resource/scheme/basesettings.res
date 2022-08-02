@@ -234,5 +234,7 @@ Scheme
 		"Main.BottomBorder"	"32"
 		
 		"VguiScreenCursor"			"255 208 64 255"
+		
+		"CItemModelPanel.bgcolor"	"255 0 0 255"
 	}
 }
