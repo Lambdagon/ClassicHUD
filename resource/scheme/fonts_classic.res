@@ -145,8 +145,30 @@ Scheme
 				"symbol"	"1"
 			}
 		}
+		
+		"HudNumbersHL1"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"40"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
+			}
+			"2"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"40"
+				"weight"	"1000"
+				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
+			}
+		}
 	}
-	
+		
 	CustomFontFiles
 	{
 	

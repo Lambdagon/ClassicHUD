@@ -913,19 +913,54 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
+				"name"		"Trebuchet MS"
+				"tall"		"40"
+				"weight"	"400"
 				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
 			}
 			"2"
 			{
-				"name"  "Verdana"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
+				"name"		"Trebuchet MS"
+				"tall"		"40"
+				"weight"	"1000"
 				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
+			}
+		}
+		HudNumbersGlow
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"32"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
+			}
+			"2"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"32"
+				"weight"	"1000"
+				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F"
+			}
+		}
+		HudNumbersSmall
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"1000"
+				"additive"	"1"
+				"antialias" "1"
+				"range"		"0x0000 0x017F"
 			}
 		}
 		"CloseCaption_Normal"
