@@ -46,7 +46,7 @@
 		"fieldName"		"Background"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
