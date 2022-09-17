@@ -10,7 +10,7 @@
 		"wide"			"f0" //250
 		"tall"			"480" //120
 		"visible"		"1"
-		aw"enabled"		"1"	
+		"enabled"		"1"	
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	

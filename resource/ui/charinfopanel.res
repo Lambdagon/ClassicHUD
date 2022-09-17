@@ -198,12 +198,16 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"190"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		"pin_to_sibling"		"Background"
+		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
 	}
 }
