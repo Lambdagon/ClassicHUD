@@ -184,6 +184,29 @@ Scheme
 			}
 		}
 		
+		c_src_convex_se
+		{
+			"inset" "0 0 0 0"
+
+			Right
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "C_Src_BorderDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		FrameBorder
 		{
 			"inset" "0 0 1 1"

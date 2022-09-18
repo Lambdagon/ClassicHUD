@@ -16,18 +16,18 @@
 		
 		"button_kv"
 		{
-			"xpos"			"10"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"30"
+			"tall"			"22"
 			"proportionaltoparent" "1"
 				
 			"button"
 			{
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
+				"wide"			"200"
+				"tall"			"22"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -36,24 +36,31 @@
 				"labelText"		""
 				"font"			"c_src_tahoma7"
 				"textAlignment"	"west"
-				"textinsetx"	"34"
+				"textinsetx"	"22"
 				"use_proportional_insets" "1"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
 				"proportionaltoparent" "1"
 				"paintbackgroundtype"	"0"
+				"roundedcorners"	"0"
+				
+				"defaultbgcolor_override"	"c_src_bgcolor"
+				"armedbgcolor_override"	"c_src_listbg"
+				
+				"border_default"	"c_src_convex"
+				"border_armed"	"c_src_concave"
 			}
 			
 			"avatar"
 			{
 				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"avatar"
-				"xpos"			"5"
-				"ypos"			"5"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"18"
+				"tall"			"18"
 				"image"			""
 				"visible"		"1"
 				"enabled"		"1"
@@ -102,11 +109,12 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayerList"
-			"xpos"			"0"
+			"xpos"			"2"
 			"ypos"			"0"
-			"wide"			"190"
+			"wide"			"f0"
 			"tall"			"130"
 			"visible"		"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 
