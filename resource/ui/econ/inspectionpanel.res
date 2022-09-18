@@ -87,8 +87,6 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
 		"zpos"			"1"
-		"wide"			"f264"
-		"tall"			"298"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"			"0"
@@ -103,8 +101,6 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
 		"zpos"			"6"
-		"wide"			"f263"
-		"tall"			"298"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"			"c_src_concave"
@@ -118,8 +114,6 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
 		"zpos"			"5"
-		"wide"			"f264"
-		"tall"			"298"
 		"visible"		"1"
 
 		"proportionaltoparent"	"1"
@@ -186,8 +180,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"-57"
-		"ypos"				"-7"
+		"xpos"				"0"
+		"ypos"				"-2"
 		"zpos"				"101"
 		"wide"				"54"
 		"tall"				"11"
@@ -206,9 +200,9 @@
 		"align"				"west"
 		"bgcolor_override"	"255 0 0 0"
 		
-		"pin_to_sibling"	"PaintkitPreviewContainer"
-		"pin_corner_to_sibling"	"3"
-		"pin_to_sibling_corner"	"3"
+		"pin_to_sibling"	"c_modelbg"
+		"pin_corner_to_sibling"	"6"
+		"pin_to_sibling_corner"	"6"
 		
 		"ButtonSettings"
 		{
@@ -232,9 +226,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 			
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
+			"defaultBgColor_Override"	"c_src_bgcolor"
+			"armedBgColor_Override"	"c_src_bgcolor"
+			"selectedBgColor_Override"	"c_src_bgcolor"
 			
 			"paintborder"		"1"
 			"border_default"	"c_src_convex"
