@@ -1162,26 +1162,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Tahoma"
+				"tall"		"7"
+				"weight"	"0"
 			}
 		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Tahoma"
+				"tall"		"7"
+				"weight"	"0"
 			}
 		}
 		"ScoreboardMediumSmall"

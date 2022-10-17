@@ -14,4 +14,15 @@
 		"wide"			"f250"
 		"tall"			"312"
 	}
+	
+	"TipImage"
+	{
+		"xpos"			"132"
+		"ypos"			"270"
+	}
+	
+	"TipText"
+	{
+		"ypos"			"270"
+	}
 }

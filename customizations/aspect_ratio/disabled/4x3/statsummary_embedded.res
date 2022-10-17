@@ -13,4 +13,15 @@
 		"wide"			"f80"
 		"tall"			"247"
 	}
+	
+	"TipImage"
+	{
+		"xpos"			"76"
+		"ypos"			"205"
+	}
+	
+	"TipText"
+	{
+		"ypos"			"205"
+	}
 }
