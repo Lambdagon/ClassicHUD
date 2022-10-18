@@ -467,14 +467,10 @@
 			"ypos"				"0"
 			"zpos"				"1"
 			"wide"				"f0"
-			"tall"				"p0.3"
+			"tall"				"p0.334"
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionaltoparent"	"1"
-			
-			"pin_to_sibling"		"Background"
-			"pin_to_sibling_corner"	"0"
-			"pin_corner_to_sibling"	"0"
 			
 			"Scout"
 			{
@@ -484,7 +480,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -513,8 +509,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -522,8 +518,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -532,42 +527,60 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
 					"labeltext"			"Jeremy
-										Boston, Massachusetts, USA
-										Rapid Recovery
-										Double jump"
+										Boston, USA
+										Rapid Recovery"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"The youngest of eight boys from the south side of Boston, the Scout learned early how to problem solve with his fists. With seven older brothers on his side, fights tended to end before the runt of the litter could maneuver into punching distance, so the Scout trained himself to run. He ran everywhere, all the time, until he could beat his pack of mad dog siblings to the fray."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout scout"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout scout"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -579,7 +592,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -609,7 +622,7 @@
 					"ypos"				"14"
 					"zpos"				"1"
 					"wide"				"p0.3"
-					"tall"				"f25"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -617,9 +630,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Favourite World War:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -632,7 +643,7 @@
 					"ypos"				"14"
 					"zpos"				"1"
 					"wide"				"p0.7"
-					"tall"				"f25"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -640,31 +651,48 @@
 					"wrap"			"1"
 					"labeltext"			"Jane Doe
 										Midwest, USA
-										Shock and Awe
-										2
-										Rocket jump"
+										Shock and Awe"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Though he wanted desperately to fight in World War 2, the Soldier was rejected from every branch of the U.S. military. Undaunted, he bought his own ticket to Europe. After arriving and finally locating Poland, the Soldier taught himself how to load and fire a variety of weapons before embarking on a Nazi killing spree for which he was awarded several medals that he designed and made himself. His rampage ended immediately upon hearing about the end of the war in 1949."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout soldier"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout soldier"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -676,7 +704,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -705,8 +733,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -714,8 +742,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -724,11 +751,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -736,30 +763,48 @@
 					"wrap"			"1"
 					"labeltext"			"Unknown
 										Unknown
-										Pyrotechnics
-										Compression blast"
+										Pyrotechnics"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Only two things are known for sure about the mysterious Pyro: he sets things on fire and he doesn't speak. In fact, only the part about setting things on fire is undisputed. Some believe his occasional rasping wheeze may be an attempt to communicate through a mouth obstructed by a filter and attached to lungs ravaged by constant exposure to his asbestos-lined suit. Either way, he's a fearsome, inscrutable, on-fire Frankenstein of a man - if he even is a man."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout pyro"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout pyro"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -787,7 +832,7 @@
 			"ypos"				"0"
 			"zpos"				"1"
 			"wide"				"f0"
-			"tall"				"p0.3"
+			"tall"				"p0.334"
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionaltoparent"	"1"
@@ -804,7 +849,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -833,8 +878,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -842,8 +887,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -852,42 +896,60 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
 					"labeltext"			"Tavish Finnegan DeGroot
-										Ullapool, Scotland, United Kingdom
-										House Cleaning
-										Stickybomb jump"
+										Ullapool, Scotland
+										House Cleaning"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"A fierce temper, a fascination with all things explosive, and a terrible plan to kill the Loch Ness Monster cost the six year old Demoman his original set of adoptive parents. Later, back at the Crypt Grammar School for Orphans near Ullapool in the Scottish Highlands, the boy's bomb-making skills improved dramatically. His disposition and total number of intact eyeballs, however, did not."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout demoman"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout demoman"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -899,7 +961,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -928,8 +990,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -946,41 +1008,60 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
 					"labeltext"			"Mikhail
-										Dzhugdzhur Mountains, Khabarovsk Krai, USSR
+										Dzhugdzhur Mountains, USSR
 										Mow Down"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"Like a hibernating bear, the Heavy appears to be a gentle giant. Also like a bear, confusing his deliberate, sleepy demeanor with gentleness will get you ripped limb from limb. Though he speaks simply and moves with an economy of energy that's often confused with napping, the Heavy isn't dumb, he's not your big friend, and he generally wishes you'd just shut up before he has to make you shut up."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout heavy"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout heavy"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -992,7 +1073,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -1021,8 +1102,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1039,41 +1120,60 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
 					"labeltext"			"Dell Conagher
-										Bee Cave, Texas, USA
+										Texas, USA
 										Area Denial"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"This amiable, soft-spoken good ol' boy from tiny Bee Cave, Texas loves barbeque, guns, and higher education. Natural curiosity, ten years as a roughneck in the west Texas oilfields, and eleven hard science PhDs have trained him to design, build and repair a variety of deadly contraptions."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout engineer"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout engineer"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -1101,7 +1201,7 @@
 			"ypos"				"0"
 			"zpos"				"1"
 			"wide"				"f0"
-			"tall"				"p0.3"
+			"tall"				"p0.332"
 			"visible"			"1"
 			"enabled"			"1"
 			"proportionaltoparent"	"1"
@@ -1118,7 +1218,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -1147,8 +1247,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1156,8 +1256,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1166,11 +1265,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1178,30 +1277,48 @@
 					"wrap"			"1"
 					"labeltext"			"Dr. Ludwig
 										Stuttgart, Germany
-										Doctor Assisted Homicide
-										ÜberCharge"
+										Doctor Assisted Homicide"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"What he lacks in compassion for the sick, respect for human dignity, and any sort of verifiable formal training in medicine, the Medic more than makes up for with a bottomless supply of giant needles and a trembling enthusiasm for plunging them into exposed flesh. Raised in Stuttgart, Germany during an era when the Hippocratic oath had been downgraded to an optional Hippocratic suggestion, the Medic considers healing a generally unintended side effect of satisfying his own morbid curiosity."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout medic"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout medic"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -1213,7 +1330,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -1242,8 +1359,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1251,8 +1368,7 @@
 					"wrap"			"1"
 					"labeltext"			"Name:
 										Location of origin:
-										Job:
-										Special ability:"
+										Job:"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1261,11 +1377,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1273,30 +1389,48 @@
 					"wrap"			"1"
 					"labeltext"			"Mr. Mundy
 										Australia, born in New Zealand
-										Precision Elimination
-										Headshot"
+										Precision Elimination"
+					"fgcolor_override"			"c_src_dulltextcolor"
+					"font"			"c_src_tahoma7"
+				}
+				
+				"Info3"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
+					"xpos"				"0"
+					"ypos"				"rs1"
+					"zpos"				"1"
+					"wide"				"f10"
+					"tall"				"f42"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"In his former life as a tracker of dangerous game in the unforgiving Australian outback, the Sniper would spend months by himself. Prolonged isolation taught him a valuable lesson: You don't have to rely on other people if you never miss."
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
 				
 				"Button"
 				{
-					"ControlName"		"CExButton"
+					"ControlName"		"Button"
 					"fieldName"			"Button"
 					"xpos"				"0"
-					"ypos"				"rs1"
-					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
+					"command"			"loadout sniper"
 					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout sniper"
-					"font"			"c_src_tahoma7"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
 				}
 			}
 			
@@ -1308,7 +1442,7 @@
 				"ypos"				"0"
 				"zpos"				"1"
 				"wide"				"p0.334"
-				"tall"				"f5"
+				"tall"				"f1"
 				"visible"			"1"
 				"enabled"			"1"
 				"proportionaltoparent"	"1"
@@ -1337,8 +1471,8 @@
 					"xpos"				"0"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.25"
-					"tall"				"f25"
+					"wide"				"p0.3"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1355,11 +1489,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"			"Info2"
-					"xpos"				"p0.25"
+					"xpos"				"p0.3"
 					"ypos"				"14"
 					"zpos"				"1"
-					"wide"				"p0.75"
-					"tall"				"f25"
+					"wide"				"p0.7"
+					"tall"				"28"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
@@ -1372,152 +1506,241 @@
 					"font"			"c_src_tahoma7"
 				}
 				
-				"Button"
+				"Info3"
 				{
-					"ControlName"		"CExButton"
-					"fieldName"			"Button"
+					"ControlName"		"CExLabel"
+					"fieldName"			"Info3"
 					"xpos"				"0"
 					"ypos"				"rs1"
 					"zpos"				"1"
-					"wide"				"50"
-					"tall"				"11"
+					"wide"				"f10"
+					"tall"				"f42"
 					"visible"			"1"
 					"enabled"			"1"
 					"proportionaltoparent"	"1"
-					"textalignment"	"west"
-					"textinsetx"	"6"
-					"actionsignallevel"	"4"
-					"labeltext"		"Change Loadout"
-					"command"		"loadout spy"
+					"textalignment"	"north-west"
+					"wrap"			"1"
+					"labeltext"			"He is a puzzle, wrapped in an enigma, shrouded in riddles, lovingly sprinkled with intrigue, express mailed to Mystery, Alaska, and LOOK OUT BEHIND YOU! but it is too late. You're dead. For he is the Spy - globetrotting rogue, lady killer (metaphorically) and mankiller (for real)."
+					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
-			}
-			
-			"Bottom"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"Bottom"
-				"xpos"				"0"
-				"ypos"				"rs1"
-				"zpos"				"1"
-				"wide"				"f0"
-				"tall"				"1"
-				"visible"			"1"
-				"enabled"			"1"
-				"proportionaltoparent"	"1"
-				"border"	"c_src_concave"
+				
+				"Button"
+				{
+					"ControlName"		"Button"
+					"fieldName"			"Button"
+					"xpos"				"0"
+					"ypos"				"0"
+					"zpos"				"2"
+					"wide"				"f0"
+					"tall"				"f0"
+					"visible"			"1"
+					"enabled"			"1"
+					"proportionaltoparent"	"1"
+					"command"			"loadout spy"
+					"actionsignallevel"	"4"
+					
+					"labeltext"			""
+					"paintborder"		"0"
+					"paintbackground"	"0"
+				}
 			}
 		}
-		
-		"C_Row4"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"C_Row4"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"1"
-			"wide"				"f0"
-			"tall"				"p0.1"
-			"visible"			"1"
-			"enabled"			"1"
-			"proportionaltoparent"	"1"
-			
-			"pin_to_sibling"		"C_Row3"
-			"pin_to_sibling_corner"	"2"
-			"pin_corner_to_sibling"	"0"
-			
-			"Inventory"
-			{
-				"ControlName"		"CExButton"
-				"fieldName"			"Inventory"
-				"xpos"				"0"
-				"ypos"				"rs1"
-				"zpos"				"1"
-				"wide"				"50"
-				"tall"				"11"
-				"visible"			"1"
-				"enabled"			"1"
-				"proportionaltoparent"	"1"
-				"textalignment"	"west"
-				"textinsetx"	"6"
-				"actionsignallevel"	"3"
-				"labeltext"		"Inventory"
-				"command"		"backpack"
-				"font"			"c_src_tahoma7"
-			}
-			
-			"Crafting"
-			{
-				"ControlName"		"CExButton"
-				"fieldName"			"Crafting"
-				"xpos"				"4"
-				"ypos"				"0"
-				"zpos"				"1"
-				"wide"				"50"
-				"tall"				"11"
-				"visible"			"1"
-				"enabled"			"1"
-				"proportionaltoparent"	"1"
-				"textalignment"	"west"
-				"textinsetx"	"6"
-				"actionsignallevel"	"3"
-				"labeltext"		"Crafting"
-				"command"		"crafting"
-				"font"			"c_src_tahoma7"
-				
-				"pin_to_sibling"		"Inventory"
-				"pin_to_sibling_corner"	"1"
-				"pin_corner_to_sibling"	"0"
-			}
-			
-			"Trading"
-			{
-				"ControlName"		"CExButton"
-				"fieldName"			"Trading"
-				"xpos"				"4"
-				"ypos"				"0"
-				"zpos"				"1"
-				"wide"				"50"
-				"tall"				"11"
-				"visible"			"1"
-				"enabled"			"1"
-				"proportionaltoparent"	"1"
-				"textalignment"	"west"
-				"textinsetx"	"6"
-				"actionsignallevel"	"3"
-				"labeltext"		"Trading"
-				"command"		"trading"
-				"font"			"c_src_tahoma7"
-				
-				"pin_to_sibling"		"Crafting"
-				"pin_to_sibling_corner"	"1"
-				"pin_corner_to_sibling"	"0"
-			}
-			
-			"War_Paints"
-			{
-				"ControlName"		"CExButton"
-				"fieldName"			"War_Paints"
-				"xpos"				"4"
-				"ypos"				"0"
-				"zpos"				"1"
-				"wide"				"50"
-				"tall"				"11"
-				"visible"			"1"
-				"enabled"			"1"
-				"proportionaltoparent"	"1"
-				"textalignment"	"west"
-				"textinsetx"	"6"
-				"actionsignallevel"	"3"
-				"labeltext"		"War Paints"
-				"command"		"paintkit_preview"
-				"font"			"c_src_tahoma7"
-				
-				"pin_to_sibling"		"Trading"
-				"pin_to_sibling_corner"	"1"
-				"pin_corner_to_sibling"	"0"
-			}
-		}
+	}
+	
+	"Scout_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Scout_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&1"
+		"Command"		"loadout scout"
+	}
+	
+	"Soldier_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Soldier_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&2"
+		"Command"		"loadout soldier"
+	}
+	
+	"Pyro_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Pyro_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&3"
+		"Command"		"loadout pyro"
+	}
+	
+	"Demo_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Demo_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&4"
+		"Command"		"loadout demoman"
+	}
+	
+	"Heavy_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Heavy_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&5"
+		"Command"		"loadout heavy"
+	}
+	
+	"Engineer_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Engineer_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&6"
+		"Command"		"loadout engineer"
+	}
+	
+	"Medic_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Medic_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&7"
+		"Command"		"loadout medic"
+	}
+	
+	"Sniper_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Sniper_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&8"
+		"Command"		"loadout sniper"
+	}
+	
+	"Spy_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Spy_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&9"
+		"Command"		"loadout spy"
+	}
+	
+	"Inv_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Inv_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&I"
+		"Command"		"backpack"
+	}
+	
+	"Craft_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Craft_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&C"
+		"Command"		"crafting"
+	}
+	
+	"Trade_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Trade_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&T"
+		"Command"		"trading"
+	}
+	
+	"Skin_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Skin_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&W"
+		"Command"		"paintkit_preview"
 	}
 	
 	"scout"

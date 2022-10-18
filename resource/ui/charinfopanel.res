@@ -192,6 +192,21 @@
 		"paintborder"	"0"
 		"defaultfgcolor_override"	"c_menubuttondefault"
 		"armedfgcolor_override"		"c_menubuttonarmed"
+	}
+	
+	"BackButton_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"Command"		"back"
 	}	
 	
 	"NotificationsPresentPanel"

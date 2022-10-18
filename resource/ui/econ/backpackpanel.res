@@ -442,6 +442,36 @@
 		}
 	}
 	
+	"PrevPage_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPage_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&A"
+		"Command"		"prevpage"
+	}
+	
+	"NextPage_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPage_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&D"
+		"Command"		"nextpage"
+	}
+	
 	//"PrevPageButton"
 	//{
 	//	"ControlName"	"CExButton"
