@@ -5,10 +5,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
 		"xpos"			"12"
-		"ypos"			"80"
-		"zpos"			"-50"
+		"ypos"			"64"
+		"zpos"			"-2"
 		"wide"			"270"
-		"tall"			"132"
+		"tall"			"197"
 		"visible"		"0"
 		
 		"RankPanel"
@@ -16,7 +16,7 @@
 			"ControlName"	"CPvPRankPanel"	
 			"fieldName"		"RankPanel"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"65"
 			"zpos"			"2"
 			"wide"			"260"
 			"tall"			"46"
@@ -28,6 +28,210 @@
 
 			"show_model"	"0"
 			"show_type"		"1"
+		}
+		
+		"PartyBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"PartyBorder"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"260"
+			"tall"			"55"
+			"visible"		"1"
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"0"
+			"bgcolor_override"	"C_Src_BGColor"
+			"border"	"C_Src_Convex"
+			"proportionaltoparent"	"1"
+
+			"TitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabel"
+				"font"			"C_Src_Tahoma8"
+				"labelText"		"Party"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"16"
+				"fgcolor_override"	"C_Src_TextColor"
+				"proportionaltoparent"	"1"
+			}
+			
+			"InnerShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"499"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"	
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"C_Src_Concave"
+				
+				"PaintBackground"	"1"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"C_Src_ListBG"
+			}
+		}
+		
+		"PartySlot0"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot0"
+			"xpos"			"11"
+			"ypos"			"21"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"0"
+		}
+
+		"PartySlot1"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"1"
+			
+			"pin_to_sibling"	"PartySlot0"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+
+		"PartySlot2"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot2"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"2"
+			
+			"pin_to_sibling"	"PartySlot1"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+
+		"PartySlot3"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot3"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"3"
+			
+			"pin_to_sibling"	"PartySlot2"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+
+		"PartySlot4"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot4"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"4"
+			
+			"pin_to_sibling"	"PartySlot3"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+
+		"PartySlot5"
+		{
+			"ControlName"	"CDashboardPartyMember"
+			"fieldName"		"PartySlot5"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"o1"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+
+			"party_slot"	"5"
+			
+			"pin_to_sibling"	"PartySlot4"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
 		}
 		
 		"FriendsContainer"

@@ -191,8 +191,6 @@
 			"wide"			"f0"
 			"tall"			"f0"
 		}
-		
-			
 	}	
 	
 	"Image0"
@@ -260,6 +258,12 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_progress"	"0"
+	}
+	
+	"RankPanel"
+	{
+		"xpos"	"r0"
+		"ypos"	"r0"
 	}
 
 	"CycleRankTypeButton"

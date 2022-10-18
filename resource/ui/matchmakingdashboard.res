@@ -5,27 +5,27 @@
 		"fieldName"				"MMDashboard"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"-5"
-		"zpos"					"10001"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-3"
 		"wide"					"f0"
-		"tall"					"35"
+		"tall"					"480"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"35"
-		"resize_time"		"0.2"
+		"expanded_height"	"480"
+		"resize_time"		"0.0"
 	}
 
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -89,8 +89,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"40"
-			"tall"			"f6"
+			"wide"			"0"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -136,10 +136,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
 			"xpos"			"40"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -157,10 +157,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
 			"xpos"			"64"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -178,10 +178,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
 			"xpos"			"88"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -199,10 +199,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
 			"xpos"			"112"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -220,10 +220,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
 			"xpos"			"136"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -241,10 +241,10 @@
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
 			"xpos"			"160"
-			"ypos"			"rs1-6"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -265,7 +265,7 @@
 			"ypos"			"-50"
 			"zpos"			"111"
 			"wide"			"220"
-			"tall"			"f0"
+			"tall"			"35"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -278,7 +278,7 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"border"		"OuterShadowBorderThin"
@@ -295,8 +295,8 @@
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-
-				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"	"c_src_bgcolor"
+				"border"		"c_src_convex"
 			}
 
 			"QueueLogoButton"
@@ -406,6 +406,8 @@
 				"Command"		"manage_queues"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
+				
+				"paintborder"	"0"
 			
 				"paintbackground"	"0"
 			
@@ -413,8 +415,8 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"158 168 148 255"
+				"image_armedcolor"	"255 255 255 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -456,15 +458,15 @@
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+				"paintborder"	"0"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "200 200 200 255"
+				"armedFgColor_override" "255 255 255 255"
+				"depressedFgColor_override" "255 255 255 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"158 168 148 255"
+				"image_armedcolor"	"255 255 255 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -490,7 +492,7 @@
 			"ypos"			"-50"
 			"zpos"			"110"
 			"wide"			"220"
-			"tall"			"f0"
+			"tall"			"35"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -503,7 +505,7 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"border"		"OuterShadowBorderThin"
@@ -521,7 +523,8 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"c_src_convex"
+				"bgcolor_override"		"c_src_bgcolor"
 			}
 
 			"PromptText"
@@ -575,11 +578,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				"armedBgColor_override"		"c_src_bgcolor"
+				"defaultBgColor_override"	"c_src_bgcolor"
 			}
 		}
 
@@ -613,8 +613,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"255 255 200 255"
+			"defaultBgColor_override"	"200 200 200 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -764,7 +764,7 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"26"
+			"wide"			"0"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -814,5 +814,41 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
+	}
+		
+	"C_FindAGameButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"C_FindAGameButton"
+		"xpos"			"12"
+		"ypos"			"rs1-100"
+		"zpos"			"112"
+		"wide"			"70"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"C_Tahoma8"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"find_game"
+		"proportionaltoparent"	"1"
+		"labeltext"		"Find A Game"
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+		"actionsignallevel"	"2"
+		"use_proportional_insets"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"	"UI/buttonrollover.wav"
+		"paintborder"	"0"
+		"paintbackground"		"0"
+
+		"defaultFgColor_override" "C_MenuButtonDefault"
+		"armedFgColor_override" "C_MenuButtonArmed"
 	}
 }

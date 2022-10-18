@@ -106,11 +106,11 @@
 			"proportionaltoparent"	"1"			
 		}
 	}
-	
-	"ContractsButton"
+
+	"CharacterSetupButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ContractsButton"
+		"fieldName"		"CharacterSetupButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -147,90 +147,10 @@
 		}
 	}
 	
-	"StoreButton"
+	"OptionsButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"StoreButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"		"ContractsButton"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"2"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"C_Tahoma8"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "C_MenuButtonDefault"
-			"armedFgColor_override" "C_MenuButtonArmed"
-			
-			"proportionaltoparent"	"1"			
-		}
-	}
-
-	"CharacterSetupButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CharacterSetupButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"		"StoreButton"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"2"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"C_Tahoma8"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "C_MenuButtonDefault"
-			"armedFgColor_override" "C_MenuButtonArmed"
-			
-			"proportionaltoparent"	"1"			
-		}
-	}
-	
-	"AdvancedOptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"AdvancedOptionsButton"
+		"fieldName"		"OptionsButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -239,88 +159,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"pin_to_sibling"		"CharacterSetupButton"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"2"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"C_Tahoma8"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"paintbackground"	"0"
-			"paintborder"	"0"
-			"border_default"	"C_Src_Concave"
-			
-			"defaultFgColor_override" "C_MenuButtonDefault"
-			"armedFgColor_override" "C_MenuButtonArmed"
-			
-			"proportionaltoparent"	"1"			
-		}
-	}
-	
-	"OptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"OptionsButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"		"AdvancedOptionsButton"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"2"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"C_Tahoma8"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "C_MenuButtonDefault"
-			"armedFgColor_override" "C_MenuButtonArmed"
-			
-			"proportionaltoparent"	"1"			
-		}
-	}
-
-	"OptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"OptionsButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"		"AdvancedOptionsButton"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 		
@@ -405,58 +243,18 @@
 		}
 	}
 	
-	"FindServersButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FindServersButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"pin_to_sibling"		"CreateServerButton"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"2"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"C_Tahoma8"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			"paintborder"	"0"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "C_MenuButtonDefault"
-			"armedFgColor_override" "C_MenuButtonArmed"
-			
-			"proportionaltoparent"	"1"			
-		}
-	}
-	
 	"Spacer2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Spacer2"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"-99"
 		"wide"			"70"
-		"tall"			"12"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"pin_to_sibling"		"FindServersButton"
+		"pin_to_sibling"		"CreateServerButton"
 		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"2"
 	}

@@ -12,28 +12,10 @@
 		"command"	"motd_show"
 	}
 	
-	"ContractsButton"
-	{
-		"label"		"Contracts"
-		"command"	"questlog"
-	}
-	
-	"StoreButton"
-	{
-		"label"			"Store"
-		"command"		"engine open_store"
-	}
-	
 	"CharacterSetupButton"
 	{
 		"label"			"Character Setup"
 		"command"		"engine open_charinfo"
-	}
-	
-	"AdvancedOptionsButton"
-	{
-		"label"			"Advanced Options"
-		"command"		"opentf2options"
 	}
 	
 	"OptionsButton"
@@ -46,12 +28,6 @@
 	{
 		"label"			"Create Server"
 		"command"		"OpenCreateMultiplayerGameDialog"
-	}
-	
-	"FindServersButton"
-	{
-		"label"			"Find Servers"
-		"command"		"OpenServerBrowser"
 	}
 	
 	"CallVoteButton"
